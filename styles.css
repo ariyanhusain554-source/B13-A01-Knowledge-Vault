@@ -78,7 +78,7 @@ p {
     border: 2px solid rgb(198, 198, 198);
     border-radius: 5px;
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 10px 5px;
 }
 .content .btnd a {
     text-decoration: none;
@@ -158,3 +158,32 @@ p {
     text-align: center;
 }
 
+.footer-content {
+    background-color: rgb(3, 3, 63);
+    padding: 60px 80px;
+    margin-top: 120px;
+    color: white;
+}
+.footer-logo img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+.social-links {
+    margin-bottom: 20px;
+}
+.social-links a {
+    color: white;
+    margin-right: 15px;
+    font-size: 24px;
+    text-decoration: none;
+}
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
