@@ -121,3 +121,40 @@ p {
     list-style-type: none;
     padding-left: 20px;
 }
+.early{
+    display: flex;
+    justify-content: center; 
+    text-align: center;  
+    background-color: rgb(217, 217, 216);
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 80px;
+    border-radius: 10px;
+}
+.early h2 {
+    margin-bottom: 10px;
+}
+.early p {
+    margin-bottom: 10px;
+}
+.early button {
+    background-color: #2f855a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.early button a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.early .credit{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
