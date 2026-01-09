@@ -108,3 +108,16 @@ p {
     width: 300px;
     box-shadow: 0 4px 6px rgba(180, 178, 178, 0.1);
 }
+.brain {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.second h4 {
+    margin-bottom: 5px;
+    color: #2f855a;
+}
+.list ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
