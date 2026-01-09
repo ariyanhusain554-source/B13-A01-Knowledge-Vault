@@ -1,0 +1,110 @@
+.navbar {
+    display: flex;
+    background-color: #f8f9fa;
+    align-items: center;
+    margin-bottom: 0 auto;
+    justify-content: space-between;
+}
+
+.navbar .nav {
+    display: flex;
+    gap: 32px;
+}
+.navbar .nav a {
+    text-decoration: none;
+    color: #2d3748;
+}
+.navbar button {
+    background-color: #2f855a;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.navbar button a {
+    text-decoration: none;
+    color: white;
+}
+.banner {
+background: url(./assets/hero-bg.png) no-repeat;
+background-size: cover;
+height: 600px;
+display: flex;
+align-items: center;
+}
+.banner .content {
+    margin-left: 100px;
+    max-width: 600px;
+    color: white;
+   text-align: center;
+   padding: 120px;
+   margin: 0 auto;
+}
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.content .highlights{
+    color: #2f855a;
+    margin-bottom: 20px;
+}
+.content p {
+    margin-bottom: 25px;
+}
+.content .button {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.content .btn{
+    background-color: #2f855a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.content .btn a {
+    text-decoration: none;
+    color: white;
+}   
+.content .btnd{
+    background-color:transparent;
+    border: 2px solid rgb(198, 198, 198);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.content .btnd a {
+    text-decoration: none;
+    color: white;
+}
+.notes {
+    text-align: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.card-container .card img {
+    width: 20%;
+    background-color: crimson;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(180, 178, 178, 0.1);
+}
