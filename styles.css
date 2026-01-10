@@ -96,7 +96,7 @@ p {
     margin-bottom: 40px;
 }
 .card-container .card img {
-    width: 20%;
+    width: 10%;
     background-color: crimson;
     border-radius: 8px;
     margin-bottom: 15px;
@@ -106,7 +106,7 @@ p {
     padding: 20px;
     border-radius: 8px;
     width: 300px;
-    box-shadow: 0 4px 6px rgba(180, 178, 178, 0.1);
+    box-shadow: 0 4px 6px rgba(195, 192, 192, 0.1);
 }
 .brain {
     display: flex;
@@ -133,10 +133,11 @@ p {
     border-radius: 10px;
 }
 .early h2 {
-    margin-bottom: 10px;
+    text-weight: bold;
+    margin-bottom: 5px;
 }
 .early p {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .early button {
     background-color: #2f855a;
@@ -153,9 +154,7 @@ p {
 }
 .early .credit{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
 }
 
 .footer-content {
@@ -186,4 +185,10 @@ p {
     text-align: center;
     margin-top: 20px;
     font-size: 14px;
+}
+.footer-content hr {
+    border: 0;
+    height: 1px;
+    background: #444;
+    margin-bottom: 20px;
 }
