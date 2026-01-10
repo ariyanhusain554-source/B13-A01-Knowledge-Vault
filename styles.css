@@ -26,6 +26,10 @@
     text-decoration: none;
     color: white;
 }
+.navbar button :hover{
+    background-color: blue;
+    color: white;
+}
 .banner {
 background: url(./assets/hero-bg.png) no-repeat;
 background-size: cover;
@@ -73,6 +77,10 @@ p {
     text-decoration: none;
     color: white;
 }   
+.content .btn :hover{
+    background-color: blue;
+    color: white;
+}
 .content .btnd{
     background-color:transparent;
     border: 2px solid rgb(198, 198, 198);
@@ -82,6 +90,10 @@ p {
 }
 .content .btnd a {
     text-decoration: none;
+    color: white;
+}
+.content .btnd :hover{
+    background-color: blue;
     color: white;
 }
 .notes {
@@ -151,6 +163,10 @@ p {
     text-decoration: none;
     color: white;
     padding: 10px;
+}
+.early button :hover{
+    background-color: blue;
+    color: white;
 }
 .early .credit{
     display: flex;
